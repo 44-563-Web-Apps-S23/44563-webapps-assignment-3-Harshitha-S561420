@@ -64,15 +64,12 @@
         <blockquote>Get height/Width of Image</blockquote>
         <a href="https://stackoverflow.com/questions/2179100/get-image-height-and-width-as-integer-values">link to stackoverflow</a>
         <pre>
-            <?php
-
+            ?php
             list($width, $height, $type, $attr) = getimagesize("url/to/image.jpg");
-          
             echo "Image width " . $width;
             echo "Image height " . $height;
             echo "Image type " . $type;
-            echo "Attribute " . $attr;
-          
+            echo "Attribute " . $attr; 
           ?>
         </pre>
        
